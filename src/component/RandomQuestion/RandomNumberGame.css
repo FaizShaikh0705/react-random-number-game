@@ -10,7 +10,12 @@
 .genarate-button{
     margin-top: 30px !important;
     width: 20% !important;
+
+     @media(max-width:767px) {
+        width: 70% !important;
+     }
 }
+
 
 .cards{
     margin-top: 20px;
