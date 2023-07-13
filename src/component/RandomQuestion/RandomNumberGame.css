@@ -21,3 +21,15 @@
     margin-top: 20px;
     height: 330px !important;
 }
+
+.answer{
+    font-size: 20px;
+}
+
+.ansimg{
+    margin-left: 50px;
+}
+
+.click{
+    margin-right: 10px;
+}

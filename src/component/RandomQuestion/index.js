@@ -21,7 +21,7 @@ const index = () => {
                     </Navbar.Brand>
                 </Container>
             </Navbar>
-            <h1 className='d-flex justify-content-center heading'>Random Number Game</h1>
+            <h1 className='d-flex justify-content-center heading'>Answer Random Questions Game</h1>
             <RandomNumberGame />
         </>
     )

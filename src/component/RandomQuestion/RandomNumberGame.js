@@ -36,15 +36,30 @@ const RandomNumberGame = () => {
             <div>
                 <Container>
                     <Row className='d-flex justify-content-center'>
-                        <Button className='genarate-button' variant="dark" onClick={getNextNumber}>Generate Random Number</Button>
+                        <Button className='genarate-button' variant="dark" onClick={getNextNumber}>
+                            <img
+                            lt=""
+                            src="./images/click.png"
+                            width="20"
+                            height="20"
+                            className="d-inline-block align-end click"
+                            />Generate Random Number</Button>
                         {currentNumber && (
                             <div className='d-flex justify-content-center'>
-                                <Card className='cards' style={{ width: '18rem' }}>
+                                <Card className='cards' style={{ width: '20rem' }}>
                                     <Card.Img variant="top" src="./images/ans.jpg" />
                                     <Card.Body>
-                                        <Card.Title>Random Number: {currentNumber}</Card.Title>
+                                        <Card.Title>Random Number: {currentNumber}
+                                            <img
+                                                lt=""
+                                                src="./images/chat.png"
+                                                width="40"
+                                                height="40"
+                                                className="d-inline-block align-end ansimg" />
+                                                </Card.Title>
                                         <Card.Text>
-                                            {currentQuestion}
+                                            <p className='answer'>
+                                                {currentQuestion}</p>
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
