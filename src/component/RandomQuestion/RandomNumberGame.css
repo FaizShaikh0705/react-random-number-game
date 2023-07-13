@@ -1,0 +1,18 @@
+.tittle{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.genarate-button{
+    margin-top: 30px !important;
+    width: 20% !important;
+}
+
+.cards{
+    margin-top: 20px;
+    height: 330px !important;
+}
